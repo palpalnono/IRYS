@@ -1,0 +1,30 @@
+{
+  "name": "irys-uptime-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:api": "tsx scripts/test.ts"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "next": "15.3.9",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "dotenv": "^17.4.2",
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.3.9",
+    "typescript": "5.5.3"
+  }
+}
