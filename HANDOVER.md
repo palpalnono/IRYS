@@ -66,9 +66,3 @@ npm run dev
 
 ### Deployment
 Designed for Vercel. Ensure you add `IRYS_PASSWORD`, `AUTH_SECRET`, `INTECS_API_KEY`, and `INTECS_UNIT_IDS` as Environment Variables in the Vercel dashboard prior to deployment.
-
-## 6. Outstanding Tasks & Future Roadmap
-1. **Klubher Module Fate:** Determine if the `/station` product should be fully integrated with a real API and re-linked in `PortalHome.tsx`, or if it should be completely removed from the repository.
-2. **Review Critiques:** Check `.impeccable/critiques/system-rest.md` for any remaining visual polishes that haven't been implemented yet.
-
-Good luck with the project!
