@@ -40,7 +40,6 @@ The repository currently supports two product lines, although one is hidden:
   - `data.ts`: Fleet API adapter and lookup logic.
   - `klubher-data.ts` & `klubher-types.ts`: Mock data and types for the Fuel Station module.
   - `auth.ts`: Authentication utilities.
-- `.impeccable/critiques/` — A directory containing historical design and product feedback (useful for understanding the "why" behind the UI).
 - `scripts/` — Contains diagnostic scripts like `test.ts`.
 
 ## 5. Running & Deploying
